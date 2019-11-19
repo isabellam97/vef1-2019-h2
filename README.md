@@ -15,7 +15,7 @@ Ef það er Texti í divinu þá heitir textinn sérstakla (þaðsamaogdiv)+Text
 -Takkar
 
 .Buttons
-Bætir við __CSS/__Html/__JavaScript
+Bætir við __CSS/__Html/__JavaScript til að vinna með sérstaka takka.
 
 -Fyrirlestrar
 .List er main - fyrir styles
