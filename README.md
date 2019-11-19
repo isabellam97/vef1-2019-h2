@@ -6,14 +6,22 @@ https://www.npmjs.com/package/stylelint-config-primer
 https://www.npmjs.com/package/eslint-config-airbnb
 
 Ef það er Texti í divinu þá heitir textinn sérstakla (þaðsamaogdiv)+Text eins og t.d. .HeadText
+-Header
 
 .Header er hausinn í heild
 .Head er efri texti
 .HeadF er neðri texti
+
 -Takkar
-.CssButton
-.HtmlButton
-.JavaScriptButton
+
+.Buttons
+Bætir við __CSS/__Html/__JavaScript
+
+-Fyrirlestrar
+.List er main - fyrir styles
+.Lists er sub - fyrir styles
+.Lists__Sub er sub sub category sem við notum í texta
+
 
 Verkefnið felst í því að smíða prótótýpu af fyrirlestravef fyrir vefforritun. Gefin eru gögn sem unnin eru uppúr námsefni vetrarins.
 
