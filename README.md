@@ -1,4 +1,19 @@
 # Hópverkefni 2
+# README - Ágúst eftir session 1.
+
+Byrja á því að fara í Powershell/CMD/eh annað og installa ESLINT og STYLELINT
+https://www.npmjs.com/package/stylelint-config-primer
+https://www.npmjs.com/package/eslint-config-airbnb
+
+Ef það er Texti í divinu þá heitir textinn sérstakla (þaðsamaogdiv)+Text eins og t.d. .HeadText
+
+.Header er hausinn í heild
+.Head er efri texti
+.HeadF er neðri texti
+-Takkar
+.CssButton
+.HtmlButton
+.JavaScriptButton
 
 Verkefnið felst í því að smíða prótótýpu af fyrirlestravef fyrir vefforritun. Gefin eru gögn sem unnin eru uppúr námsefni vetrarins.
 
