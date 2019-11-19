@@ -22,6 +22,7 @@ Bætir við __CSS/__Html/__JavaScript til að vinna með sérstaka takka.
 .Lists er sub - fyrir styles
 .Lists__Sub er sub sub category sem við notum í texta
 
+Við ætlum að nota sass fyrir allt css.
 
 Verkefnið felst í því að smíða prótótýpu af fyrirlestravef fyrir vefforritun. Gefin eru gögn sem unnin eru uppúr námsefni vetrarins.
 
