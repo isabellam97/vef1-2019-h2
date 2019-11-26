@@ -1,7 +1,11 @@
-.Header {
-    display:flex;
-    background-image: url("../img/header.jpg");
-    background-attachment: fixed;
-    background-repeat: no-repeat;
 
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined variable.\a    \2577 \a 25 \2502    font-family: $font-main;\d\a    \2502                 ^^^^^^^^^^\a    \2575 \a   ..\\..\\..\\hí\\vefforitun\\vef1-2019-h2\\src\\styles\\styles.scss 25:16  root stylesheet";
 }
