@@ -1,12 +1,25 @@
+@import "config";
+
 .Header {
-    display:flex;
-    background-image: url("../img/header.jpg");
+    background-image: url("../../img/header.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
-}
-.Header {
-    display:flex;
-    background-image: url("../img/header.jpg");
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-}
+    min-height: 65vh;
+    vertical-align: middle;
+    width: 100%;
+    background-color: rgba(255, 255, 255 0.4);
+  }
+  
+  .Header__Text {
+    font-size: 1.5em;
+    padding-top: 7em;
+    text-align: center;
+  }
+  
+  p {
+    font-family: $font-main;
+  }
+  
+  h1 {
+    font-family: "Roboto Mono", "Courier New", monospace;
+  }

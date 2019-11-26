@@ -1,11 +1,9 @@
+.Buttons__Button {
+  padding: 0.8rem 1.3rem;
+  font-family: monospace;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border: 0;
+  border-radius: 1rem; }
 
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a    \2577 \a 25 \2502    font-family: $font-main;\d\a    \2502                 ^^^^^^^^^^\a    \2575 \a   ..\\..\\..\\hí\\vefforitun\\vef1-2019-h2\\src\\styles\\styles.scss 25:16  root stylesheet";
-}
+/*# sourceMappingURL=data:application/json;base64,ewoJInZlcnNpb24iOiAzLAoJImZpbGUiOiAic3R5bGVzLmNzcyIsCgkic291cmNlcyI6IFsKCQkic3JjL3N0eWxlcy9pdGVtcy5zY3NzIgoJXSwKCSJuYW1lcyI6IFtdLAoJIm1hcHBpbmdzIjogIkFBQUEsQUFBQSxnQkFBZ0IsQ0FBQztFQUNiLE9BQU8sRUFBRSxhQUFhO0VBQ3RCLFdBQVcsRUFBRSxTQUFTO0VBQ3RCLFNBQVMsRUFBRSxNQUFNO0VBQ2pCLFdBQVcsRUFBRSxJQUFJO0VBQ2pCLE1BQU0sRUFBRSxDQUFDO0VBQ1QsYUFBYSxFQUFFLElBQUksR0FDdEIiCn0= */

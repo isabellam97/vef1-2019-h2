@@ -1,10 +1,8 @@
-@import "config";
-@import "fyrirlestrar";
-@import "header";
-@import "items";
-@import "lists";
-
-
+@import "src/styles/config";
+@import "src/styles/fyrirlestrar";
+@import "src/styles/header";
+@import "src/styles/items";
+@import "src/styles/lists";
 
 * {
   padding: 0;
@@ -31,3 +29,5 @@ img { /* stylelint-disable-line */
 }
 
 // TODO import
+
+
