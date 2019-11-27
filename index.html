@@ -23,23 +23,26 @@
   <div class="Body">
     <div class="Body__Content">
       <div class=Body__Content__Top>
-        <ul class="Buttons">
-          <li><button data-category="html" class="Buttons__Button">HTML</button></li>
-          <li><button data-category="css" class="Buttons__Button">CSS</button></li>
-          <li><button data-category="javascript" class="Buttons__Button">JavaScript</button></li>
-        </ul>
+        <div class="Buttons">
+          <div class="Buttons__Set">
+            <button data-category="html" class="Buttons__Set__Button">HTML</button>
+            <button data-category="css" class="Buttons__Set__Button">CSS</button>
+            <button data-category="javascript" class="Buttons__Set__Button">JavaScript</button>
+          </div>
+        </div>
       </div>
-    </div>
-    <div class="Body__Cards">
-      <div class="Lists">
-        <div class="Lists__Sub">
-          <nav>
-            <li></li>
-          </nav>
+      <div class="Body__Cards">
+        <div class="List">
+
         </div>
       </div>
     </div>
-  </div>
+    <script>
+      fetch("./lectures.json")
+        .then(res => res.json())
+        .then(res => console.log(res));
+
+    </script>
 </body>
 
 </html>
