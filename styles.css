@@ -4,35 +4,6 @@
   font-size: 1.5rem;
   font-weight: bold;
   border: 0;
-  border-radius: 1rem; 
-}
+  border-radius: 1rem; }
 
-.Header {
-  display: flex;
-  background-image: url("../../img/header.jpg");
-  background-repeat: no-repeat;
-  height: 290px;
-  vertical-align: middle;
-  background-size: cover;
-  width: 100%;
-  background-color: rgba(255, 255, 255 0.4);
-  justify-content: center;
-}
-
-.Header__Text {
-  font-size: 1.5em;
-  justify-content: center;
-  text-align: center;
-}
-
-p {
-  font-family: serif;
-}
-
-h1 {
-  font-family: "Roboto Mono", "Courier New", monospace;
-}
-h2 {
-  background: pink; 
-}
 /*# sourceMappingURL=data:application/json;base64,ewoJInZlcnNpb24iOiAzLAoJImZpbGUiOiAic3R5bGVzLmNzcyIsCgkic291cmNlcyI6IFsKCQkic3JjL3N0eWxlcy9pdGVtcy5zY3NzIiwKCQkic3JjL3N0eWxlcy9jb25maWcuc2NzcyIKCV0sCgkibmFtZXMiOiBbXSwKCSJtYXBwaW5ncyI6ICJBQUVBLEFBQUEsZ0JBQWdCLENBQUM7RUFDYixPQUFPLEVBQUUsYUFBYTtFQUN0QixXQUFXLEVBQUUsU0FBUztFQUN0QixTQUFTLEVBQUUsTUFBTTtFQUNqQixXQUFXLEVBQUUsSUFBSTtFQUNqQixNQUFNLEVBQUUsQ0FBQztFQUNULGFBQWEsRUFBRSxJQUFJLEdBQ3RCIgp9 */
