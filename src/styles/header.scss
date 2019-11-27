@@ -1,10 +1,11 @@
 @import "config";
 
 .Header {
+    display: flex;
     background-image: url("../../img/header.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
-    min-height: 65vh;
+    height: 290px;
     vertical-align: middle;
     width: 100%;
     background-color: rgba(255, 255, 255 0.4);
@@ -17,7 +18,7 @@
   }
   
   p {
-    font-family: $font-main;
+    font-family: "Lora", serif;
   }
   
   h1 {
