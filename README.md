@@ -24,6 +24,8 @@ Bætir við __CSS/__Html/__JavaScript til að vinna með sérstaka takka.
 
 Við ætlum að nota sass fyrir allt css.
 
+Þeir sem unnu í verkefninu: Ágúst Örn Ingason, Fannar Ingi Ingvarsson og Ísabella Montazeri.p
+
 Verkefnið felst í því að smíða prótótýpu af fyrirlestravef fyrir vefforritun. Gefin eru gögn sem unnin eru uppúr námsefni vetrarins.
 
 Gefnar eru [fyrirmyndir](utlit/) í `500px` og `1500px` án grindar ásamt `1500px` með grind. Allt efni skal skalast snyrtilega á milli.
