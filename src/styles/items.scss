@@ -9,5 +9,59 @@
     border-radius: 1rem;
 }
 
+&_text {
+    margin-bottom: $gutter;
+    font-size: 1rem;
+    line-height: 1.8;
+}
+
+&_header {
+    margin-bottom: $gutter;
+    font-family: $font-header;
+    font-size: 2rem;
+}
+
+&_blockquote {
+    padding: $gutter;
+    margin-right: -$gutter;
+    margin-left: -$gutter;
+    background-color: $color4;
+}
+
+&_quote {
+    margin-bottom: $gutter;
+
+}
+
+&_code {
+    font-family: $font-header;
+
+}
+
+&_caption {
+    font-style: italic;
+}
+
+&_attribute {
+    font-style: italic;
+
+}
+
+/*&_youtube &_content {
+    position: relative;
+    max-width: 100%;
+    padding-bottom: 56.25%;
+    overflow: hidden;
+
+}
+
+&_youtube &_iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+} */
 
 

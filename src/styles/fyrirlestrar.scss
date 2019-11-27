@@ -10,7 +10,7 @@
         padding-left: $gutter;
     }
 }
-}
+
 
 &_row {
     @include row;
@@ -36,7 +36,7 @@
     align-items: center;
 
     font-family: $font-header;
-    color: black;
+    color: $color-black;
 
 }
 

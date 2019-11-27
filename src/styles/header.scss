@@ -6,6 +6,7 @@
     background-image: url("../../img/header.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
+    background-size: cover;
     height: 290px;
     vertical-align: middle;
     width: 100%;
@@ -25,3 +26,19 @@
   h1 {
     font-family: "Roboto Mono", "Courier New", monospace;
   }
+
+/*  &_category {
+    position: relative;
+    z-index: 1;
+    display: block;
+    font-size: 1rem;
+    font-family: $font-header;
+    text-transform: uppercase;
+  }
+
+  &_title {
+    position: relative;
+    z-index: 1;
+    font-size: 3rem;
+    font-family: $font-header;
+  } */
