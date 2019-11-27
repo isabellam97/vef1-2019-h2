@@ -29,33 +29,37 @@
   justify-content: space-between;
   flex-direction: row;
   padding: 0 20px;
-&__Set {
-  display: flex;
-  padding: 5 20px;
-&__Button {
-  padding: 0.8rem 1.3rem;
-  font-family: monospace;
-  font-size: 1.5rem;
-  font-weight: bold;
-  border: 0;
-  border-radius: 1rem;
-  border: none;
-  transition: background-color 300ms ease-in-out;
-  
-  &:hover {
-    background-color: #aaa;
+    &__Set {
+    display: flex;
+    padding: 0 20px;
 
-    &:active {
-        background-color: #2d2;
-  
-        &:hover {
-          background-color: #1a1;
+        &__Button {
+        padding: 0.8rem 1.3rem;
+        font-family: monospace;
+        font-size: 1.5rem;
+        font-weight: bold;
+        border: 0;
+        border-radius: 1rem;
+        border: none;
+        transition: background-color 300ms ease-in-out;
+
+            &:hover {
+            background-color: $color3;
+            }
         }
-      }
-  }
+    }
 }
+.Buttons__Set__Button--active {
+    background-color: #2d2; }
+    .Buttons__Set__Button--active:hover {
+      background-color: #1a1; }
+
+.Divider{
+    width:20px;
+    height:auto;
+    display:inline-block;
 }
-}
+
 /*&_youtube &_content {
     position: relative;
     max-width: 100%;

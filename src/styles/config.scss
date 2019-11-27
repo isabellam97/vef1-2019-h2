@@ -13,3 +13,11 @@ $color5: #2d2;
 $color6: #141;
 $color7: #cc9694;
 $color8: #fcffd2;
+
+html {
+    background-color: none;
+    margin: 0;
+    padding: 0;
+    font-family: $font-main;
+    font-size: 16px;
+}
