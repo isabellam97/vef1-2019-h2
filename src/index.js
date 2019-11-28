@@ -3,10 +3,11 @@ import Lecture from './lib/lecture';
 
 document.addEventListener('DOMContentLoaded', () => {
   const page = document.querySelector('body');
-  const isLecturePage = page.classList.contains('lecture-page');
+  const isLecturePage = page.classList.contains('Page__Lecture');
 
-  // eslint-disable-next-line no-empty
   if (isLecturePage) {
+    const lecture = new Lecture();
+    lecture.load();
 
   } else {
     const list = new List();
