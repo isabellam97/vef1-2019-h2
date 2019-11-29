@@ -1,23 +1,23 @@
-//Stillingar
-$small-width: 500px;
 $max-width: 1200px;
 $gutter: 20px;
+
 $font-main: Lora, "Times New Roman", serif;
 $font-heading: "Roboto Mono", "Courier New", monospace;
-//Litir
-$color-black: #000;
-$color2: #999;
-$color3: #aaa;
-$color4: #ccc;
-$color5: #2d2;
-$color6: #141;
-$color7: #cc9694;
-$color8: #fcffd2;
 
-html {
-    background-color: none;
-    margin: 0;
-    padding: 0;
-    font-family: $font-main;
-    font-size: 16px;
+@mixin row() {
+  display: flex;
+
+  margin-right: -($gutter / 2);
+  margin-left: -($gutter / 2);
+}
+
+@mixin columns($col: 1) {
+  width: ($col / 12 * 100) * 1%;
+
+  padding-right: $gutter / 2;
+  padding-left: $gutter / 2;
+}
+
+@mixin offset-left($cols: 0) {
+  margin-left: ($cols/12 * 100) * 1%;
 }

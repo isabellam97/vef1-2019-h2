@@ -1,53 +1,30 @@
 <!DOCTYPE html>
 <html lang="is">
-
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Fyrirlestur</title>
-  <link href="https://fonts.googleapis.com/css?family=Lora|Roboto+Mono&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="grid.css" type="text/css">
-  <link rel="stylesheet" href="dist/styles.css" type="text/css">
+  <title>Fyrirlestrar</title>
+  <link href="https://fonts.googleapis.com/css?family=Lora:400,400i|Roboto+Mono:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="grid.css">
+  <link rel="stylesheet" href="./dist/styles.css">
 </head>
-<header>
-  <div class="Header">
-    <div class="Header__Text">
-      <p>VEFFORRITUN</p>
-      <h1>Fyrirlestrar</h1>
-      <div class="Header__Shade">
-         </div>
-    </div>
-  </div>
-</header>
-
 <body>
-  <div class="Body">
-    <div class="Body__Content">
-      <div class=Body__Content__Top>
-        <div class="Buttons">
-          <div class="Buttons__Set">
-            <button data-category="html" class="Buttons__Set__Button Buttons__Set__Button__Html">HTML</button>
-            <div class="Divider"></div>
-            <button data-category="css" class="Buttons__Set__Button Buttons__Set__Button__CSS">CSS</button>
-            <div class="Divider"></div>
-            <button data-category="javascript" class="Buttons__Set__Button Buttons__Set__Button__HTML">JavaScript</button>
-          </div>
-        </div>
-      </div>
-      <div class="Body__Cards">
-        <div class="List">
-
-        </div>
+  <header class="heading heading--main">
+    <span class="heading__category">Vefforritun</span>
+    <h1 class="heading__title">Fyrirlestrar</h1>
+  </header>
+  <main>
+    <ul class="siar">
+      <li><button data-category="html" class="siar__siu siar__siu--html">HTML</button></li>
+      <li><button data-category="css" class="siar__siu siar__siu--css">CSS</button></li>
+      <li><button data-category="javascript" class="siar__siu siar__siu--js">JavaScript</button></li>
+    </ul>
+    <div class="list">
+      <div class="list__row">
       </div>
     </div>
-    <script>
-      fetch("./lectures.json")
-        .then(res => res.json())
-        .then(res => console.log(res));
-
-    </script>
-    <script src="lectures.json"></script>
+  </main>
+  <script src="./dist/bundle.js"></script>
 </body>
-
 </html>

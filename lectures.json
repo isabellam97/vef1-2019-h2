@@ -30,7 +30,7 @@
           "caption": "NeXT tölvan sem Tim Berners-Lee notaði til að skrifa fyrsta vefþjóninn og vafrann. Á tölvu er skrifað „This machine is a server DO NOT POWER DOWN!!“"
         },
         {
-          "type": "header",
+          "type": "heading",
           "data": "Markup Language"
         },
         {
@@ -47,7 +47,7 @@
           "data": "### Markdown fyrirsögn\n\nTexti sem inniheldur **feitletraðan** og\n_skáletraðan_ texta\nmeð [tengli](http://example.org).\n\n* Listi\n* af\n* orðum"
         },
         {
-          "type": "header",
+          "type": "heading",
           "data": "HTML5"
         },
         {
@@ -59,7 +59,7 @@
           "data": "<!doctype html>"
         },
         {
-          "type": "header",
+          "type": "heading",
           "data": "Minnsta HTML skjalið"
         },
         {
@@ -95,7 +95,7 @@
           "data": "Þegar við skrifum HTML eru þetta elmentin sem við skoðum m.t.t. merkingarfræði áður en við grípum eitthvað almennt. Til að aðstoða við leit er gott að nota skilgreiningar W3C, HTML5 Element Index hjá HTML5 Doctor, MDN: HTML element reference eða W3C: The Elements of HTML."
         },
         {
-          "type": "header",
+          "type": "heading",
           "data": "Sectioning content"
         },
         {
@@ -103,7 +103,7 @@
           "data": "<body>\n  <header>\n    <nav></nav>\n  </header>\n  <main>\n    <section></section>\n  </main>\n  <footer></footer>\n</body>"
         },
         {
-          "type": "header",
+          "type": "heading",
           "data": "Headings"
         },
         {
@@ -111,7 +111,7 @@
           "data": "Fyrir þau svæði og kafla sem við skilgreinum er æskilegt að setja fyrirsagnir á hvert og eitt. Í HTML eru fyrirsagnir skilgreindar frá <h1> til <h6>, í minnkandi mikilvægisröð. Útfrá þessu er hægt að skilgreina útlínu fyrir vefinn okkar sem hægt væri að horfa á eins og t.d. efnisyfirlit.\n\nMerkingarfræðilega hefur <h1> mesta vægið og skilgreinir aðalumfjöllunarefni vefs og ætti aðeins að nota einu sinni. Þetta getur skipt máli fyrir lesvafra og vélar sem lesa vefina okkar.\n\nÞegar við byggum efni á vef ættum við að skilgreina fyrirsagnir í röð og passa að göt myndist ekki þar sem hoppað er yfir fyrirsögn, t.d. frá <h1> í <h3>."
         },
         {
-          "type": "header",
+          "type": "heading",
           "data": "Töflur"
         },
         {
@@ -147,7 +147,7 @@
           "data": "Margar af þessum reglum eiga bæði við um vefslóðir (URL) og skráakerfi stýrikerfa. Þó er munur þar á, t.d. nota vefslóðir, macOS og linux / til að skipta á milli mappa en í Windows er \\ notað."
         },
         {
-          "type": "header",
+          "type": "heading",
           "data": "Merkingarfræði"
         },
         {
@@ -177,7 +177,7 @@
           "attribute": "An Alphabet of Accessibility Issues"
         },
         {
-          "type": "header",
+          "type": "heading",
           "data": "Að smíða vef með aðgengi í huga"
         },
         {
@@ -232,7 +232,7 @@
           "caption": "Upprunalega acid prófið."
         },
         {
-          "type": "header",
+          "type": "heading",
           "data": "Einfalt, ekki auðvelt"
         },
         {
@@ -245,7 +245,7 @@
           "data": "Það er líka gott að hafa í huga að þó að CSS sé einfalt er það mjög kröftugt. Flest þau útlit sem við sjáum á vefnum eru smíðuð með CSS (stundum eru myndir eða þrívíddarvirkni notuð til að smíða útlit óháð CSS). Með mikilli þolinmæði má smíða ótrúlega hluti með CSS."
         },
         {
-          "type": "header",
+          "type": "heading",
           "data": "Málfræði"
         },
         {
@@ -257,7 +257,7 @@
           "data": "p {\n  color: green;\n  margin: 1em;\n}"
         },
         {
-          "type": "header",
+          "type": "heading",
           "data": "Selectors"
         },
         {
@@ -350,7 +350,7 @@
           ]
         },
         {
-          "type": "header",
+          "type": "heading",
           "data": "Sveigjanleg grind"
         },
         {
@@ -363,7 +363,7 @@
           "caption": "Hreyfimynd sem sýnir mun á max-width og ekki."
         },
         {
-          "type": "header",
+          "type": "heading",
           "data": "Sveigjanlegar myndir og miðlar"
         },
         {
@@ -371,7 +371,7 @@
           "data": "Þegar við erum að útfæra vefi sem eiga að birtast í mörgum mismunandi skjástærðum getum við ekki sett inn myndir og miðla sem eru af fastri stærð. Mynd sem er 1200px breið og á að birtast í dálk sem búið er að skala niður í 600px mun ekki birtast snyrtilega nema við gerum ráðstafanir. Við getum fest breidd mynda og miðla við breidd foreldris og látið skalast og þurfum þá aðeins að skilgreina max-width: 100%; en þá mun efnið alltaf fylla upp í breiddina. Við getum átt við hvernig efnið birtist með því að skera (crop) myndina til, object-fit getur hjálpað okkur við að skilgreina hvernig myndin er skorin eða sköluð og þá stundum í samhengi við height og overflow: hidden;"
         },
         {
-          "type": "header",
+          "type": "heading",
           "data": "Media queries"
         },
         {
@@ -404,7 +404,7 @@
           "attribute": "Resilient Web Design, chapter 4: Languages"
         },
         {
-          "type": "header",
+          "type": "heading",
           "data": "ECMAScript"
         },
         {
@@ -469,7 +469,7 @@
       "thumbnail": "img/thumb9.jpg",
       "content": [
         {
-          "type": "header",
+          "type": "heading",
           "data": "Array"
         },
         {

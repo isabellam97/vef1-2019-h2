@@ -5,9 +5,9 @@ document.addEventListener('DOMContentLoaded', () => {
   const page = document.querySelector('body');
   const isLecturePage = page.classList.contains('lecture-page');
 
-  // eslint-disable-next-line no-empty
   if (isLecturePage) {
-
+    const lecture = new Lecture();
+    lecture.load();
   } else {
     const list = new List();
     list.load();

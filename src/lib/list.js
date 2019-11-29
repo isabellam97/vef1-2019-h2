@@ -4,7 +4,7 @@ import { loadSavedLectures } from './storage';
 export default class List {
   constructor() {
     this.container = document.querySelector('.list');
-    this.Buttons = document.querySelectorAll('.Buttons_Button');
+    this.filters = document.querySelectorAll('.siar__siu');
     this.url = 'lectures.json';
   }
 
@@ -36,11 +36,11 @@ export default class List {
   }
 
   filterLectures(data) {
-    const activeButtons = Array.from(this.Buttons)
-      .filter(i => i.classList.contains('Buttons_Button--active'))
+    const activeFilters = Array.from(this.filters)
+      .filter(i => i.classList.contains('siar__siu--active'))
       .map(i => i.dataset.category);
 
-    return data.filter(i => activeButtons.length === 0 || activeButtons.indexOf(i.category) >= 0);
+    return data.filter(i => activeFilters.length === 0 || activeFilters.indexOf(i.category) >= 0);
   }
 
   addSavedLectures(data) {
@@ -106,7 +106,7 @@ export default class List {
 
   toggleFilter(e) {
     const { target } = e;
-    target.classList.toggle('.Buttons_Button--active');
+    target.classList.toggle('siar__siu--active');
 
     // todo refactor
     this.loadLectures()
@@ -119,8 +119,8 @@ export default class List {
       });
   }
 
-  setupButtons() {
-    this.Buttons.forEach((filter) => {
+  setupFilters() {
+    this.filters.forEach((filter) => {
       filter.addEventListener('click', this.toggleFilter.bind(this));
     });
   }
@@ -135,6 +135,6 @@ export default class List {
         this.setError(error.message);
       });
 
-    this.setupButtons();
+    this.setupFilters();
   }
 }
